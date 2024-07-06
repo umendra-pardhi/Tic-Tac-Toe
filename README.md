@@ -2,6 +2,8 @@
 
 This is a simple Tic Tac Toe game implemented using HTML, CSS, and JavaScript. The game allows two players to take turns marking spaces in a 3×3 grid with "X" or "O". The game identifies a winner or a draw and allows for resetting the game to play again.
 
+![screenshot](https://github.com/umendra-pardhi/Tic-Tac-Toe/blob/main/snapshot.png)
+
 ## Features
 
 - Two-player mode
