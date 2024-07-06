@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe Game</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="title">
+            <h2>Tic Tac Toe Game</h2>
+            <div class="player-desc">
+                <div class="player-symb">
+                   <p>PLAYER-1</p>
+                   <h3 style="color: #c80036;">X</h3>
+                </div>
+                <div class="player-symb">
+                    <p>PLAYER-2</p>
+                   <h3 style="color: #0c1844">O</h3>
+                </div>
+            </div>
+        </div>
+        <div class="game">
+            <div class="row">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+            <div class="row">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+            <div class="row">
+                <button class="box"></button>
+                <button class="box"></button>
+                <button class="box"></button>
+            </div>
+        </div>
+        <div class="reset">
+            <button id="btn-reset">RESET GAME</button>
+        </div>
+
+<div class="dialog-bg hide-dialog">
+        <div class="dialog">
+            <h2>PLAYER <span id="player" style="color: #ff6969;">X</span></h2>
+            <h4>is</h4>
+            <h2>WINNER</h2>
+            <h4>of</h4> 
+            <h2>GAME</h2>
+            <button id="new-game">START NEW GAME</button>
+        </div>
+    </div>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+
+</html>

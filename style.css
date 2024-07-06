@@ -1,0 +1,145 @@
+:root {
+    --light: #FFF5E1;
+    --mlight: #FF6969;
+    --maroon: #C80036;
+    --dark: #0C1844;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: var(--dark);
+    color: var(--light);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.title {
+    margin-top: 30px;
+}
+.player-desc{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 15px;
+    margin-bottom: 6px;
+}
+.player-symb{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.player-symb h3{
+    height: 28px;
+    width: 28px;
+    margin-top:5px;
+    border-radius: 5px;
+    background-color: #fff;
+}
+.game {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid var(--light); */
+    margin-top: 20px;
+    flex-direction: column;
+    /* box-shadow:inset 1px 1px 10px 10px rgba(255, 255, 255, 0.088); */
+    border-radius: 10px;
+}
+
+.row {
+    display: flex;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    margin: 3px;
+    border-radius: 10px;
+    border: none;
+    background-color: var(--light);
+    font-size: 30px;
+    font-weight: 800;
+    box-shadow: 1px 1px 5cm 5px rgba(0, 238, 255, 0.5);
+}
+
+.reset {
+    margin-top: 20px;
+}
+
+#btn-reset {
+    padding: 10px;
+    color: var(--light);
+    background-color: var(--maroon);
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+}
+
+#btn-reset:hover {
+    background-color: #fa2a61;
+    cursor: pointer;
+}
+
+.player1 {
+    color: var(--maroon);
+}
+
+.player2 {
+    color: var(--dark);
+}
+.dialog-bg{
+    height: 100%;
+    width: 100%;
+    background-color: #0C1844;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    display: flex;
+    justify-content: center;
+
+}
+.dialog {
+    width: 300px;
+    height: 200px;
+    border: var(--light) solid 2px;
+    border-radius: 10px;
+    background-color: var(--dark);
+    box-shadow: 1px 1px 10px 3px rgba(255, 245, 225, 0.33);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    text-align: center;
+    margin-top:10% ;
+  
+}
+
+#new-game {
+    padding: 10px;
+    color: var(--light);
+    background-color: var(--maroon);
+    border: none;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#new-game:hover {
+    background-color: #fa2a61;
+    cursor: pointer;
+}
+
+.hide-dialog{
+    display: none;
+}
